@@ -1,4 +1,4 @@
-# MLAB-Core-Release
+# MLAB Core Release
 IBLIS Frontend Releases
 ## Prerequsites
 - Node.js^16.x or greater
@@ -12,6 +12,7 @@ git clone https://github.com/HISMalawi/HIS-Core-release.git
 ```bash
    git fetch --tags
    git checkout [tag]
+   git describe --tags
    pm2 start server/index.mjs --name="IBLIS"
    pm2 save
 ```
