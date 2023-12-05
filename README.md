@@ -4,16 +4,21 @@ IBLIS Frontend Releases
 - Node.js^16.x or greater
 - PM2
 # Installation
-Clone the repository:
+1. Clone the repository:
 ```bash
-git clone https://github.com/HISMalawi/HIS-Core-release.git
+   git clone https://github.com/HISMalawi/MLAB-Core-Release.git
+```
+2. Install dependencies
+```
+   npm install pm2 serve -g
 ```
 ## Deployment
-```bash
+```
+   cd MLAB-Core-Release
    git fetch --tags
    git checkout [tag]
    git describe --tags
-   pm2 start server/index.mjs --name="IBLIS"
+   pm2 start ecosystem.config.js
    pm2 save
 ```
 
