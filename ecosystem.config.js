@@ -17,6 +17,16 @@ module.exports = {
                 PM2_SERVE_SPA: 'true',
                 NODE_ENV: 'production'
             }
+        },
+        {
+            name: 'Iblis Reception',
+            script: 'serve',
+            env: {
+                PM2_SERVE_PATH: './iblis_reception',
+                PM2_SERVE_PORT: 8002,
+                PM2_SERVE_SPA: 'true',
+                NODE_ENV: 'production'
+            }
         }
     ]
 }
