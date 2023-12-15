@@ -4,8 +4,6 @@ FROM node:18
 # Install global dependencies
 RUN npm install -g pm2 serve
 
-RUN git checkout v3.0.0
-
 # Create app directory
 WORKDIR /mlab
 
