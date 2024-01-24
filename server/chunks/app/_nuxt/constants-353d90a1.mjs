@@ -21,7 +21,7 @@ const constants = {
     year: "YYYY"
   }
 };
-const dateRange = ["1920", `${(/* @__PURE__ */ new Date()).getFullYear()}`];
+const dateRange = ["1920", `${( new Date()).getFullYear()}`];
 const dateFormat = "DD/MMM/YYYY HH:mm";
 const datePickerFormat = "dd-MMMM-yyyy";
 const sex = [
