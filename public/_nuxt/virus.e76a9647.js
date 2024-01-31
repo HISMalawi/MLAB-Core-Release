@@ -1,1 +1,0 @@
-import"./entry.18364f1c.js";const t=""+new URL("virus.56f14045.svg",import.meta.url).href;export{t as _};
