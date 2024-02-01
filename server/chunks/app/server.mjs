@@ -885,7 +885,7 @@ const _routes = [
     meta: __nuxt_page_meta$12 || {},
     alias: (__nuxt_page_meta$12 == null ? void 0 : __nuxt_page_meta$12.alias) || [],
     redirect: (__nuxt_page_meta$12 == null ? void 0 : __nuxt_page_meta$12.redirect) || void 0,
-    component: () => import('./_nuxt/permissions-21f83ba1.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/permissions-417d0388.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$11 == null ? void 0 : __nuxt_page_meta$11.name) ?? "access-controls-roles",
@@ -893,7 +893,7 @@ const _routes = [
     meta: __nuxt_page_meta$11 || {},
     alias: (__nuxt_page_meta$11 == null ? void 0 : __nuxt_page_meta$11.alias) || [],
     redirect: (__nuxt_page_meta$11 == null ? void 0 : __nuxt_page_meta$11.redirect) || void 0,
-    component: () => import('./_nuxt/roles-022671e0.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/roles-300efd26.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$10 == null ? void 0 : __nuxt_page_meta$10.name) ?? "access-controls-user-accounts",
@@ -901,7 +901,7 @@ const _routes = [
     meta: __nuxt_page_meta$10 || {},
     alias: (__nuxt_page_meta$10 == null ? void 0 : __nuxt_page_meta$10.alias) || [],
     redirect: (__nuxt_page_meta$10 == null ? void 0 : __nuxt_page_meta$10.redirect) || void 0,
-    component: () => import('./_nuxt/user-accounts-ff693aaa.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/user-accounts-76f73223.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$$ == null ? void 0 : __nuxt_page_meta$$.name) ?? "configuration",
@@ -909,7 +909,7 @@ const _routes = [
     meta: __nuxt_page_meta$$ || {},
     alias: (__nuxt_page_meta$$ == null ? void 0 : __nuxt_page_meta$$.alias) || [],
     redirect: (__nuxt_page_meta$$ == null ? void 0 : __nuxt_page_meta$$.redirect) || void 0,
-    component: () => import('./_nuxt/index-ce66ecb4.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-0f8d9dd7.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$_ == null ? void 0 : __nuxt_page_meta$_.name) ?? "help-support",
@@ -925,7 +925,7 @@ const _routes = [
     meta: __nuxt_page_meta$Z || {},
     alias: (__nuxt_page_meta$Z == null ? void 0 : __nuxt_page_meta$Z.alias) || [],
     redirect: (__nuxt_page_meta$Z == null ? void 0 : __nuxt_page_meta$Z.redirect) || void 0,
-    component: () => import('./_nuxt/home-94f54f9b.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/home-04ff2307.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$Y == null ? void 0 : __nuxt_page_meta$Y.name) ?? "index",
@@ -933,7 +933,7 @@ const _routes = [
     meta: __nuxt_page_meta$Y || {},
     alias: (__nuxt_page_meta$Y == null ? void 0 : __nuxt_page_meta$Y.alias) || [],
     redirect: (__nuxt_page_meta$Y == null ? void 0 : __nuxt_page_meta$Y.redirect) || void 0,
-    component: () => import('./_nuxt/index-16d56724.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-b73dc400.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$X == null ? void 0 : __nuxt_page_meta$X.name) ?? "lab-configuration-facilities",
@@ -941,7 +941,7 @@ const _routes = [
     meta: __nuxt_page_meta$X || {},
     alias: (__nuxt_page_meta$X == null ? void 0 : __nuxt_page_meta$X.alias) || [],
     redirect: (__nuxt_page_meta$X == null ? void 0 : __nuxt_page_meta$X.redirect) || void 0,
-    component: () => import('./_nuxt/facilities-718d8632.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/facilities-e3d8b4b0.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$W == null ? void 0 : __nuxt_page_meta$W.name) ?? "lab-configuration-facility-wards",
@@ -949,7 +949,7 @@ const _routes = [
     meta: __nuxt_page_meta$W || {},
     alias: (__nuxt_page_meta$W == null ? void 0 : __nuxt_page_meta$W.alias) || [],
     redirect: (__nuxt_page_meta$W == null ? void 0 : __nuxt_page_meta$W.redirect) || void 0,
-    component: () => import('./_nuxt/facility-wards-48a27632.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/facility-wards-57d7fcbe.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$V == null ? void 0 : __nuxt_page_meta$V.name) ?? "lab-configuration-instruments",
@@ -957,7 +957,7 @@ const _routes = [
     meta: __nuxt_page_meta$V || {},
     alias: (__nuxt_page_meta$V == null ? void 0 : __nuxt_page_meta$V.alias) || [],
     redirect: (__nuxt_page_meta$V == null ? void 0 : __nuxt_page_meta$V.redirect) || void 0,
-    component: () => import('./_nuxt/instruments-e422eac7.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/instruments-d448a3e3.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$U == null ? void 0 : __nuxt_page_meta$U.name) ?? "lab-configuration-surveillance",
@@ -965,7 +965,7 @@ const _routes = [
     meta: __nuxt_page_meta$U || {},
     alias: (__nuxt_page_meta$U == null ? void 0 : __nuxt_page_meta$U.alias) || [],
     redirect: (__nuxt_page_meta$U == null ? void 0 : __nuxt_page_meta$U.redirect) || void 0,
-    component: () => import('./_nuxt/surveillance-ac57b16f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/surveillance-b4c26daf.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$T == null ? void 0 : __nuxt_page_meta$T.name) ?? "lab-configuration-visit-types",
@@ -973,7 +973,7 @@ const _routes = [
     meta: __nuxt_page_meta$T || {},
     alias: (__nuxt_page_meta$T == null ? void 0 : __nuxt_page_meta$T.alias) || [],
     redirect: (__nuxt_page_meta$T == null ? void 0 : __nuxt_page_meta$T.redirect) || void 0,
-    component: () => import('./_nuxt/visit-types-d3b5193a.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/visit-types-a1986222.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$S == null ? void 0 : __nuxt_page_meta$S.name) ?? "patients",
@@ -981,7 +981,7 @@ const _routes = [
     meta: __nuxt_page_meta$S || {},
     alias: (__nuxt_page_meta$S == null ? void 0 : __nuxt_page_meta$S.alias) || [],
     redirect: (__nuxt_page_meta$S == null ? void 0 : __nuxt_page_meta$S.redirect) || void 0,
-    component: () => import('./_nuxt/patients-b695453b.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/patients-acbc5aee.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$R == null ? void 0 : __nuxt_page_meta$R.name) ?? "reports-aggregate-culture-sensitivity",
@@ -989,7 +989,7 @@ const _routes = [
     meta: __nuxt_page_meta$R || {},
     alias: (__nuxt_page_meta$R == null ? void 0 : __nuxt_page_meta$R.alias) || [],
     redirect: (__nuxt_page_meta$R == null ? void 0 : __nuxt_page_meta$R.redirect) || void 0,
-    component: () => import('./_nuxt/culture-sensitivity-6f4f749c.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/culture-sensitivity-38a7ee76.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$Q == null ? void 0 : __nuxt_page_meta$Q.name) ?? "reports-aggregate-department",
@@ -997,7 +997,7 @@ const _routes = [
     meta: __nuxt_page_meta$Q || {},
     alias: (__nuxt_page_meta$Q == null ? void 0 : __nuxt_page_meta$Q.alias) || [],
     redirect: (__nuxt_page_meta$Q == null ? void 0 : __nuxt_page_meta$Q.redirect) || void 0,
-    component: () => import('./_nuxt/department-441f1170.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/department-51fa3aa0.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$P == null ? void 0 : __nuxt_page_meta$P.name) ?? "reports-aggregate-infection",
@@ -1005,7 +1005,7 @@ const _routes = [
     meta: __nuxt_page_meta$P || {},
     alias: (__nuxt_page_meta$P == null ? void 0 : __nuxt_page_meta$P.alias) || [],
     redirect: (__nuxt_page_meta$P == null ? void 0 : __nuxt_page_meta$P.redirect) || void 0,
-    component: () => import('./_nuxt/infection-35ce4d91.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/infection-2799d8b2.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$O == null ? void 0 : __nuxt_page_meta$O.name) ?? "reports-aggregate-lab-statistics",
@@ -1013,7 +1013,7 @@ const _routes = [
     meta: __nuxt_page_meta$O || {},
     alias: (__nuxt_page_meta$O == null ? void 0 : __nuxt_page_meta$O.alias) || [],
     redirect: (__nuxt_page_meta$O == null ? void 0 : __nuxt_page_meta$O.redirect) || void 0,
-    component: () => import('./_nuxt/lab-statistics-d7ade3ae.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/lab-statistics-abec87bd.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$N == null ? void 0 : __nuxt_page_meta$N.name) ?? "reports-aggregate-malaria",
@@ -1021,7 +1021,7 @@ const _routes = [
     meta: __nuxt_page_meta$N || {},
     alias: (__nuxt_page_meta$N == null ? void 0 : __nuxt_page_meta$N.alias) || [],
     redirect: (__nuxt_page_meta$N == null ? void 0 : __nuxt_page_meta$N.redirect) || void 0,
-    component: () => import('./_nuxt/malaria-b74af04c.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/malaria-6b2f2d47.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$M == null ? void 0 : __nuxt_page_meta$M.name) ?? "reports-aggregate-rejected-samples",
@@ -1029,7 +1029,7 @@ const _routes = [
     meta: __nuxt_page_meta$M || {},
     alias: (__nuxt_page_meta$M == null ? void 0 : __nuxt_page_meta$M.alias) || [],
     redirect: (__nuxt_page_meta$M == null ? void 0 : __nuxt_page_meta$M.redirect) || void 0,
-    component: () => import('./_nuxt/rejected-samples-fed45b09.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/rejected-samples-7cbeceeb.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$L == null ? void 0 : __nuxt_page_meta$L.name) ?? "reports-aggregate-tb-tests",
@@ -1037,7 +1037,7 @@ const _routes = [
     meta: __nuxt_page_meta$L || {},
     alias: (__nuxt_page_meta$L == null ? void 0 : __nuxt_page_meta$L.alias) || [],
     redirect: (__nuxt_page_meta$L == null ? void 0 : __nuxt_page_meta$L.redirect) || void 0,
-    component: () => import('./_nuxt/tb-tests-abf801cf.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/tb-tests-436d64ea.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$K == null ? void 0 : __nuxt_page_meta$K.name) ?? "reports-aggregate-turn-around-time",
@@ -1045,7 +1045,7 @@ const _routes = [
     meta: __nuxt_page_meta$K || {},
     alias: (__nuxt_page_meta$K == null ? void 0 : __nuxt_page_meta$K.alias) || [],
     redirect: (__nuxt_page_meta$K == null ? void 0 : __nuxt_page_meta$K.redirect) || void 0,
-    component: () => import('./_nuxt/turn-around-time-dbb98a9b.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/turn-around-time-03058821.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$J == null ? void 0 : __nuxt_page_meta$J.name) ?? "reports-aggregate-user-statistics",
@@ -1053,7 +1053,7 @@ const _routes = [
     meta: __nuxt_page_meta$J || {},
     alias: (__nuxt_page_meta$J == null ? void 0 : __nuxt_page_meta$J.alias) || [],
     redirect: (__nuxt_page_meta$J == null ? void 0 : __nuxt_page_meta$J.redirect) || void 0,
-    component: () => import('./_nuxt/user-statistics-39983039.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/user-statistics-e4f3dc42.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$I == null ? void 0 : __nuxt_page_meta$I.name) ?? "reports-daily-daily-log",
@@ -1061,7 +1061,7 @@ const _routes = [
     meta: __nuxt_page_meta$I || {},
     alias: (__nuxt_page_meta$I == null ? void 0 : __nuxt_page_meta$I.alias) || [],
     redirect: (__nuxt_page_meta$I == null ? void 0 : __nuxt_page_meta$I.redirect) || void 0,
-    component: () => import('./_nuxt/daily-log-23b4827a.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/daily-log-14e38b90.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$H == null ? void 0 : __nuxt_page_meta$H.name) ?? "reports-daily-patient-report-patientId",
@@ -1069,7 +1069,7 @@ const _routes = [
     meta: __nuxt_page_meta$H || {},
     alias: (__nuxt_page_meta$H == null ? void 0 : __nuxt_page_meta$H.alias) || [],
     redirect: (__nuxt_page_meta$H == null ? void 0 : __nuxt_page_meta$H.redirect) || void 0,
-    component: () => import('./_nuxt/_patientId_-2f801830.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_patientId_-1d8add2c.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$G == null ? void 0 : __nuxt_page_meta$G.name) ?? "reports-daily-patient-report",
@@ -1077,7 +1077,7 @@ const _routes = [
     meta: __nuxt_page_meta$G || {},
     alias: (__nuxt_page_meta$G == null ? void 0 : __nuxt_page_meta$G.alias) || [],
     redirect: (__nuxt_page_meta$G == null ? void 0 : __nuxt_page_meta$G.redirect) || void 0,
-    component: () => import('./_nuxt/index-36b858ff.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-11023d30.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.name) ?? "reports-moh-biochemistry",
@@ -1085,7 +1085,7 @@ const _routes = [
     meta: __nuxt_page_meta$F || {},
     alias: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.alias) || [],
     redirect: (__nuxt_page_meta$F == null ? void 0 : __nuxt_page_meta$F.redirect) || void 0,
-    component: () => import('./_nuxt/biochemistry-51fa94c5.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/biochemistry-79d4d4ad.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$E == null ? void 0 : __nuxt_page_meta$E.name) ?? "reports-moh-blood-bank",
@@ -1093,7 +1093,7 @@ const _routes = [
     meta: __nuxt_page_meta$E || {},
     alias: (__nuxt_page_meta$E == null ? void 0 : __nuxt_page_meta$E.alias) || [],
     redirect: (__nuxt_page_meta$E == null ? void 0 : __nuxt_page_meta$E.redirect) || void 0,
-    component: () => import('./_nuxt/blood-bank-c00ccf72.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/blood-bank-a3b01317.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$D == null ? void 0 : __nuxt_page_meta$D.name) ?? "reports-moh-haematology",
@@ -1101,7 +1101,7 @@ const _routes = [
     meta: __nuxt_page_meta$D || {},
     alias: (__nuxt_page_meta$D == null ? void 0 : __nuxt_page_meta$D.alias) || [],
     redirect: (__nuxt_page_meta$D == null ? void 0 : __nuxt_page_meta$D.redirect) || void 0,
-    component: () => import('./_nuxt/haematology-cc92681b.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/haematology-ccc554e8.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.name) ?? "reports-moh-microbiology",
@@ -1109,7 +1109,7 @@ const _routes = [
     meta: __nuxt_page_meta$C || {},
     alias: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.alias) || [],
     redirect: (__nuxt_page_meta$C == null ? void 0 : __nuxt_page_meta$C.redirect) || void 0,
-    component: () => import('./_nuxt/microbiology-52c8a00e.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/microbiology-6296f7f7.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$B == null ? void 0 : __nuxt_page_meta$B.name) ?? "reports-moh-parasitology",
@@ -1117,7 +1117,7 @@ const _routes = [
     meta: __nuxt_page_meta$B || {},
     alias: (__nuxt_page_meta$B == null ? void 0 : __nuxt_page_meta$B.alias) || [],
     redirect: (__nuxt_page_meta$B == null ? void 0 : __nuxt_page_meta$B.redirect) || void 0,
-    component: () => import('./_nuxt/parasitology-156da62e.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/parasitology-a130c593.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$A == null ? void 0 : __nuxt_page_meta$A.name) ?? "reports-moh-serology",
@@ -1125,7 +1125,7 @@ const _routes = [
     meta: __nuxt_page_meta$A || {},
     alias: (__nuxt_page_meta$A == null ? void 0 : __nuxt_page_meta$A.alias) || [],
     redirect: (__nuxt_page_meta$A == null ? void 0 : __nuxt_page_meta$A.redirect) || void 0,
-    component: () => import('./_nuxt/serology-41bd83a0.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/serology-89a6fcd7.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$z == null ? void 0 : __nuxt_page_meta$z.name) ?? "sample-entry-eid",
@@ -1133,7 +1133,7 @@ const _routes = [
     meta: __nuxt_page_meta$z || {},
     alias: (__nuxt_page_meta$z == null ? void 0 : __nuxt_page_meta$z.alias) || [],
     redirect: (__nuxt_page_meta$z == null ? void 0 : __nuxt_page_meta$z.redirect) || void 0,
-    component: () => import('./_nuxt/eid-b0e40ff4.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/eid-01fbd8f9.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$y == null ? void 0 : __nuxt_page_meta$y.name) ?? "sample-entry-viral-load",
@@ -1141,7 +1141,7 @@ const _routes = [
     meta: __nuxt_page_meta$y || {},
     alias: (__nuxt_page_meta$y == null ? void 0 : __nuxt_page_meta$y.alias) || [],
     redirect: (__nuxt_page_meta$y == null ? void 0 : __nuxt_page_meta$y.redirect) || void 0,
-    component: () => import('./_nuxt/viral-load-95c3604e.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/viral-load-e38dd288.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$x == null ? void 0 : __nuxt_page_meta$x.name) ?? "settings",
@@ -1149,7 +1149,7 @@ const _routes = [
     meta: __nuxt_page_meta$x || {},
     alias: (__nuxt_page_meta$x == null ? void 0 : __nuxt_page_meta$x.alias) || [],
     redirect: (__nuxt_page_meta$x == null ? void 0 : __nuxt_page_meta$x.redirect) || void 0,
-    component: () => import('./_nuxt/settings-3268e4f8.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/settings-3e20ec83.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$w == null ? void 0 : __nuxt_page_meta$w.name) ?? "stock-management-adjustments",
@@ -1157,7 +1157,7 @@ const _routes = [
     meta: __nuxt_page_meta$w || {},
     alias: (__nuxt_page_meta$w == null ? void 0 : __nuxt_page_meta$w.alias) || [],
     redirect: (__nuxt_page_meta$w == null ? void 0 : __nuxt_page_meta$w.redirect) || void 0,
-    component: () => import('./_nuxt/adjustments-7ce73f57.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/adjustments-71214a7f.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$v == null ? void 0 : __nuxt_page_meta$v.name) ?? "stock-management-categories",
@@ -1165,7 +1165,7 @@ const _routes = [
     meta: __nuxt_page_meta$v || {},
     alias: (__nuxt_page_meta$v == null ? void 0 : __nuxt_page_meta$v.alias) || [],
     redirect: (__nuxt_page_meta$v == null ? void 0 : __nuxt_page_meta$v.redirect) || void 0,
-    component: () => import('./_nuxt/categories-91303e27.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/categories-8fcf1ef8.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$u == null ? void 0 : __nuxt_page_meta$u.name) ?? "stock-management-issue",
@@ -1173,7 +1173,7 @@ const _routes = [
     meta: __nuxt_page_meta$u || {},
     alias: (__nuxt_page_meta$u == null ? void 0 : __nuxt_page_meta$u.alias) || [],
     redirect: (__nuxt_page_meta$u == null ? void 0 : __nuxt_page_meta$u.redirect) || void 0,
-    component: () => import('./_nuxt/issue-22dcd94f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/issue-d08e4339.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$t == null ? void 0 : __nuxt_page_meta$t.name) ?? "stock-management-locations",
@@ -1181,7 +1181,7 @@ const _routes = [
     meta: __nuxt_page_meta$t || {},
     alias: (__nuxt_page_meta$t == null ? void 0 : __nuxt_page_meta$t.alias) || [],
     redirect: (__nuxt_page_meta$t == null ? void 0 : __nuxt_page_meta$t.redirect) || void 0,
-    component: () => import('./_nuxt/locations-8bad8cc5.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/locations-eaf1584a.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$s == null ? void 0 : __nuxt_page_meta$s.name) ?? "stock-management-metrics",
@@ -1189,7 +1189,7 @@ const _routes = [
     meta: __nuxt_page_meta$s || {},
     alias: (__nuxt_page_meta$s == null ? void 0 : __nuxt_page_meta$s.alias) || [],
     redirect: (__nuxt_page_meta$s == null ? void 0 : __nuxt_page_meta$s.redirect) || void 0,
-    component: () => import('./_nuxt/metrics-80baa5e1.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/metrics-6e4fdfe3.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$r == null ? void 0 : __nuxt_page_meta$r.name) ?? "stock-management-orders-voucherId",
@@ -1197,7 +1197,7 @@ const _routes = [
     meta: __nuxt_page_meta$r || {},
     alias: (__nuxt_page_meta$r == null ? void 0 : __nuxt_page_meta$r.alias) || [],
     redirect: (__nuxt_page_meta$r == null ? void 0 : __nuxt_page_meta$r.redirect) || void 0,
-    component: () => import('./_nuxt/_voucherId_-b8cba442.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_voucherId_-7b62089d.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$q == null ? void 0 : __nuxt_page_meta$q.name) ?? "stock-management-orders-approve-voucherId",
@@ -1205,7 +1205,7 @@ const _routes = [
     meta: __nuxt_page_meta$q || {},
     alias: (__nuxt_page_meta$q == null ? void 0 : __nuxt_page_meta$q.alias) || [],
     redirect: (__nuxt_page_meta$q == null ? void 0 : __nuxt_page_meta$q.redirect) || void 0,
-    component: () => import('./_nuxt/_voucherId_-d63fa23b.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_voucherId_-a0853893.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$p == null ? void 0 : __nuxt_page_meta$p.name) ?? "stock-management-orders",
@@ -1213,7 +1213,7 @@ const _routes = [
     meta: __nuxt_page_meta$p || {},
     alias: (__nuxt_page_meta$p == null ? void 0 : __nuxt_page_meta$p.alias) || [],
     redirect: (__nuxt_page_meta$p == null ? void 0 : __nuxt_page_meta$p.redirect) || void 0,
-    component: () => import('./_nuxt/index-ccd30edd.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-b3c771c5.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$o == null ? void 0 : __nuxt_page_meta$o.name) ?? "stock-management-orders-receive-voucherId",
@@ -1221,7 +1221,7 @@ const _routes = [
     meta: __nuxt_page_meta$o || {},
     alias: (__nuxt_page_meta$o == null ? void 0 : __nuxt_page_meta$o.alias) || [],
     redirect: (__nuxt_page_meta$o == null ? void 0 : __nuxt_page_meta$o.redirect) || void 0,
-    component: () => import('./_nuxt/_voucherId_-d88cbb14.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_voucherId_-ffc591fb.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$n == null ? void 0 : __nuxt_page_meta$n.name) ?? "stock-management-orders-request-voucherId",
@@ -1229,7 +1229,7 @@ const _routes = [
     meta: __nuxt_page_meta$n || {},
     alias: (__nuxt_page_meta$n == null ? void 0 : __nuxt_page_meta$n.alias) || [],
     redirect: (__nuxt_page_meta$n == null ? void 0 : __nuxt_page_meta$n.redirect) || void 0,
-    component: () => import('./_nuxt/_voucherId_-a6078f79.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_voucherId_-5ece8a9b.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$m == null ? void 0 : __nuxt_page_meta$m.name) ?? "stock-management-reports",
@@ -1237,7 +1237,7 @@ const _routes = [
     meta: __nuxt_page_meta$m || {},
     alias: (__nuxt_page_meta$m == null ? void 0 : __nuxt_page_meta$m.alias) || [],
     redirect: (__nuxt_page_meta$m == null ? void 0 : __nuxt_page_meta$m.redirect) || void 0,
-    component: () => import('./_nuxt/reports-1b92c8fb.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/reports-55fd9f6a.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$l == null ? void 0 : __nuxt_page_meta$l.name) ?? "stock-management-stock-items",
@@ -1245,7 +1245,7 @@ const _routes = [
     meta: __nuxt_page_meta$l || {},
     alias: (__nuxt_page_meta$l == null ? void 0 : __nuxt_page_meta$l.alias) || [],
     redirect: (__nuxt_page_meta$l == null ? void 0 : __nuxt_page_meta$l.redirect) || void 0,
-    component: () => import('./_nuxt/stock-items-17229942.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/stock-items-ba79fa69.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$k == null ? void 0 : __nuxt_page_meta$k.name) ?? "stock-management-stock",
@@ -1253,7 +1253,7 @@ const _routes = [
     meta: __nuxt_page_meta$k || {},
     alias: (__nuxt_page_meta$k == null ? void 0 : __nuxt_page_meta$k.alias) || [],
     redirect: (__nuxt_page_meta$k == null ? void 0 : __nuxt_page_meta$k.redirect) || void 0,
-    component: () => import('./_nuxt/stock-dd8b40ee.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/stock-86e6a8d1.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$j == null ? void 0 : __nuxt_page_meta$j.name) ?? "stock-management-suppliers",
@@ -1261,7 +1261,7 @@ const _routes = [
     meta: __nuxt_page_meta$j || {},
     alias: (__nuxt_page_meta$j == null ? void 0 : __nuxt_page_meta$j.alias) || [],
     redirect: (__nuxt_page_meta$j == null ? void 0 : __nuxt_page_meta$j.redirect) || void 0,
-    component: () => import('./_nuxt/suppliers-7d6a32bd.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/suppliers-4c08c25b.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$i == null ? void 0 : __nuxt_page_meta$i.name) ?? "stock-management-transactions",
@@ -1269,7 +1269,7 @@ const _routes = [
     meta: __nuxt_page_meta$i || {},
     alias: (__nuxt_page_meta$i == null ? void 0 : __nuxt_page_meta$i.alias) || [],
     redirect: (__nuxt_page_meta$i == null ? void 0 : __nuxt_page_meta$i.redirect) || void 0,
-    component: () => import('./_nuxt/index-efbc01dd.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-64d50ad3.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$h == null ? void 0 : __nuxt_page_meta$h.name) ?? "stock-management-transactions-receive-stock",
@@ -1277,7 +1277,7 @@ const _routes = [
     meta: __nuxt_page_meta$h || {},
     alias: (__nuxt_page_meta$h == null ? void 0 : __nuxt_page_meta$h.alias) || [],
     redirect: (__nuxt_page_meta$h == null ? void 0 : __nuxt_page_meta$h.redirect) || void 0,
-    component: () => import('./_nuxt/receive-stock-fe96d391.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/receive-stock-48163f75.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$g == null ? void 0 : __nuxt_page_meta$g.name) ?? "stock-management-transactions-transfer-stock",
@@ -1285,7 +1285,7 @@ const _routes = [
     meta: __nuxt_page_meta$g || {},
     alias: (__nuxt_page_meta$g == null ? void 0 : __nuxt_page_meta$g.alias) || [],
     redirect: (__nuxt_page_meta$g == null ? void 0 : __nuxt_page_meta$g.redirect) || void 0,
-    component: () => import('./_nuxt/transfer-stock-4fb19252.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/transfer-stock-a2588b31.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$f == null ? void 0 : __nuxt_page_meta$f.name) ?? "test-catalog-diseases",
@@ -1293,7 +1293,7 @@ const _routes = [
     meta: __nuxt_page_meta$f || {},
     alias: (__nuxt_page_meta$f == null ? void 0 : __nuxt_page_meta$f.alias) || [],
     redirect: (__nuxt_page_meta$f == null ? void 0 : __nuxt_page_meta$f.redirect) || void 0,
-    component: () => import('./_nuxt/diseases-45f88b6d.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/diseases-cb3803a3.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$e == null ? void 0 : __nuxt_page_meta$e.name) ?? "test-catalog-drugs",
@@ -1301,7 +1301,7 @@ const _routes = [
     meta: __nuxt_page_meta$e || {},
     alias: (__nuxt_page_meta$e == null ? void 0 : __nuxt_page_meta$e.alias) || [],
     redirect: (__nuxt_page_meta$e == null ? void 0 : __nuxt_page_meta$e.redirect) || void 0,
-    component: () => import('./_nuxt/drugs-8bfa2a01.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/drugs-ee19170b.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.name) ?? "test-catalog-lab-sections",
@@ -1309,7 +1309,7 @@ const _routes = [
     meta: __nuxt_page_meta$d || {},
     alias: (__nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.alias) || [],
     redirect: (__nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.redirect) || void 0,
-    component: () => import('./_nuxt/lab-sections-d919a2ce.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/lab-sections-e22fbdd1.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$c == null ? void 0 : __nuxt_page_meta$c.name) ?? "test-catalog-organisms",
@@ -1317,7 +1317,7 @@ const _routes = [
     meta: __nuxt_page_meta$c || {},
     alias: (__nuxt_page_meta$c == null ? void 0 : __nuxt_page_meta$c.alias) || [],
     redirect: (__nuxt_page_meta$c == null ? void 0 : __nuxt_page_meta$c.redirect) || void 0,
-    component: () => import('./_nuxt/organisms-18c1f2aa.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/organisms-1c9f8022.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$b == null ? void 0 : __nuxt_page_meta$b.name) ?? "test-catalog-specimen-lifespan",
@@ -1325,7 +1325,7 @@ const _routes = [
     meta: __nuxt_page_meta$b || {},
     alias: (__nuxt_page_meta$b == null ? void 0 : __nuxt_page_meta$b.alias) || [],
     redirect: (__nuxt_page_meta$b == null ? void 0 : __nuxt_page_meta$b.redirect) || void 0,
-    component: () => import('./_nuxt/specimen-lifespan-b0a61453.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/specimen-lifespan-b700a4ef.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$a == null ? void 0 : __nuxt_page_meta$a.name) ?? "test-catalog-specimen-rejection",
@@ -1333,7 +1333,7 @@ const _routes = [
     meta: __nuxt_page_meta$a || {},
     alias: (__nuxt_page_meta$a == null ? void 0 : __nuxt_page_meta$a.alias) || [],
     redirect: (__nuxt_page_meta$a == null ? void 0 : __nuxt_page_meta$a.redirect) || void 0,
-    component: () => import('./_nuxt/specimen-rejection-3007ff84.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/specimen-rejection-e2defe9c.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$9 == null ? void 0 : __nuxt_page_meta$9.name) ?? "test-catalog-specimen-types",
@@ -1341,7 +1341,7 @@ const _routes = [
     meta: __nuxt_page_meta$9 || {},
     alias: (__nuxt_page_meta$9 == null ? void 0 : __nuxt_page_meta$9.alias) || [],
     redirect: (__nuxt_page_meta$9 == null ? void 0 : __nuxt_page_meta$9.redirect) || void 0,
-    component: () => import('./_nuxt/specimen-types-64442e3b.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/specimen-types-0dc9005e.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.name) ?? "test-catalog-test-panels",
@@ -1349,7 +1349,7 @@ const _routes = [
     meta: __nuxt_page_meta$8 || {},
     alias: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.alias) || [],
     redirect: (__nuxt_page_meta$8 == null ? void 0 : __nuxt_page_meta$8.redirect) || void 0,
-    component: () => import('./_nuxt/test-panels-0e1e2c47.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/test-panels-a49c0be8.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.name) ?? "test-catalog-test-types-edit-name",
@@ -1357,7 +1357,7 @@ const _routes = [
     meta: __nuxt_page_meta$7 || {},
     alias: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.alias) || [],
     redirect: (__nuxt_page_meta$7 == null ? void 0 : __nuxt_page_meta$7.redirect) || void 0,
-    component: () => import('./_nuxt/_name_-1e0ab3bb.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_name_-8a56b89a.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.name) ?? "test-catalog-test-types",
@@ -1365,7 +1365,7 @@ const _routes = [
     meta: __nuxt_page_meta$6 || {},
     alias: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.alias) || [],
     redirect: (__nuxt_page_meta$6 == null ? void 0 : __nuxt_page_meta$6.redirect) || void 0,
-    component: () => import('./_nuxt/index-c9fb664b.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-69cef54f.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.name) ?? "tests",
@@ -1373,7 +1373,7 @@ const _routes = [
     meta: __nuxt_page_meta$5 || {},
     alias: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.alias) || [],
     redirect: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.redirect) || void 0,
-    component: () => import('./_nuxt/index-f66e4f0c.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-205f0424.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.name) ?? "tests-new-test",
@@ -1381,7 +1381,7 @@ const _routes = [
     meta: __nuxt_page_meta$4 || {},
     alias: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.alias) || [],
     redirect: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect) || void 0,
-    component: () => import('./_nuxt/index-eccd4c08.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-ca39594a.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.name) ?? "tests-result-culture-sensitivity",
@@ -1389,7 +1389,7 @@ const _routes = [
     meta: __nuxt_page_meta$3 || {},
     alias: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.alias) || [],
     redirect: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.redirect) || void 0,
-    component: () => import('./_nuxt/culture-sensitivity-4eec2342.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/culture-sensitivity-0b0e42db.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) ?? "tests-result",
@@ -1397,7 +1397,7 @@ const _routes = [
     meta: __nuxt_page_meta$2 || {},
     alias: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.alias) || [],
     redirect: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect) || void 0,
-    component: () => import('./_nuxt/index-5a160bd7.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-17c5169b.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.name) ?? "worksheets-id",
@@ -1495,7 +1495,7 @@ const globalMiddleware = [
   validate
 ];
 const namedMiddleware = {
-  auth: () => import('./_nuxt/auth-f416603e.mjs')
+  auth: () => import('./_nuxt/auth-67c30735.mjs')
 };
 const plugin$2 = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:router",
@@ -9437,7 +9437,7 @@ const _wrapIf = (component, props2, slots) => {
   } };
 };
 const layouts = {
-  dashboard: () => import('./_nuxt/dashboard-33146045.mjs').then((m) => m.default || m),
+  dashboard: () => import('./_nuxt/dashboard-c94dd332.mjs').then((m) => m.default || m),
   default: () => import('./_nuxt/default-2d1ac201.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = /* @__PURE__ */ defineComponent({
