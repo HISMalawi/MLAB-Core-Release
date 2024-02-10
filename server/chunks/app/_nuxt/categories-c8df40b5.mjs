@@ -1,14 +1,14 @@
 import { b as buildAssetsURL } from '../../handlers/renderer.mjs';
-import { _ as _sfc_main$5 } from './Breadcrumb-fc731a79.mjs';
-import { _ as _export_sfc, u as useCookie, a as useNuxtApp, b as __nuxt_component_0 } from '../server.mjs';
+import { _ as _sfc_main$5 } from './Breadcrumb-92cb573c.mjs';
+import { _ as _export_sfc, u as useHead, a as useCookie, b as useNuxtApp, d as __nuxt_component_0 } from '../server.mjs';
 import { _ as __nuxt_component_1$2 } from './OutlinedButton-945a5cd0.mjs';
 import { useSSRContext, mergeProps, withCtx, createVNode, resolveComponent, createTextVNode, toDisplayString } from 'vue';
 import { d as dateFormat, e as errorMessage } from './constants-9b77e6ea.mjs';
 import { TransitionRoot, TransitionChild, Dialog, DialogPanel, DialogTitle } from '@headlessui/vue';
-import { S as StockModule$1 } from './stock-ebdfb047.mjs';
+import { S as StockModule$1 } from './stock-1cab6d44.mjs';
 import { r as render$4 } from './XMarkIcon-170c776f.mjs';
 import { r as render$5 } from './UserIcon-3d66d73e.mjs';
-import { r as render, a as render$4$1 } from './fetch-63157596.mjs';
+import { r as render, a as render$4$1 } from './fetch-39024911.mjs';
 import { r as render$6 } from './ArrowDownTrayIcon-16af2c05.mjs';
 import { r as render$7 } from './ArrowUturnLeftIcon-33d23cb1.mjs';
 import { ssrRenderAttrs, ssrRenderComponent, ssrInterpolate, ssrRenderAttr } from 'vue/server-renderer';
@@ -16,24 +16,40 @@ import { _ as __nuxt_component_1$1 } from './SearchBar-a0fe3266.mjs';
 import { _ as __nuxt_component_2 } from './Datatable-45e62187.mjs';
 import { a as render$1, r as render$3 } from './PencilSquareIcon-77446728.mjs';
 import { r as render$2 } from './TrashIcon-b1416ff8.mjs';
-import { u as useHead } from './index-2cdcde44.mjs';
 import moment from 'moment';
 import { P as Package } from './package-f9450e57.mjs';
 import 'vue-bundle-renderer/runtime';
+import 'h3';
+import 'devalue';
 import '../../nitro/node-server.mjs';
+import 'node-fetch-native/polyfill';
 import 'node:http';
 import 'node:https';
-import 'fs';
-import 'path';
+import 'destr';
+import 'ofetch';
+import 'unenv/runtime/fetch/index';
+import 'hookable';
+import 'scule';
+import 'klona';
+import 'defu';
+import 'ohash';
+import 'ufo';
+import 'unstorage';
+import 'radix3';
 import 'node:fs';
 import 'node:url';
-import 'devalue';
-import './nuxt-link-42c558b2.mjs';
+import 'pathe';
+import 'http-graceful-shutdown';
+import './nuxt-link-149f0ed2.mjs';
 import './HomeIcon-299b993b.mjs';
+import 'unctx';
 import 'vue-router';
 import '@unhead/ssr';
 import 'unhead';
 import '@unhead/shared';
+import '@intlify/core-base';
+import 'cookie-es';
+import 'is-https';
 import '@formkit/core';
 import '@formkit/utils';
 import '@formkit/inputs';
@@ -2205,8 +2221,4 @@ _sfc_main.setup = (props, ctx) => {
 const categories = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 
 export { categories as default };
-<<<<<<<< HEAD:server/chunks/app/_nuxt/categories-c8df40b5.mjs
 //# sourceMappingURL=categories-c8df40b5.mjs.map
-========
-//# sourceMappingURL=categories-6a2f99a2.mjs.map
->>>>>>>> db8a3962de902d8d9f97ce555bb6c63b1094610b:server/chunks/app/_nuxt/categories-6a2f99a2.mjs

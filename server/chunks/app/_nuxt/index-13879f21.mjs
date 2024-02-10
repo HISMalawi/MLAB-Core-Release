@@ -1,6 +1,6 @@
 import { b as buildAssetsURL } from '../../handlers/renderer.mjs';
-import { _ as _sfc_main$5 } from './Breadcrumb-fc731a79.mjs';
-import { _ as _export_sfc, u as useCookie, q as useI18n, a as useNuxtApp, b as __nuxt_component_0, o as _imports_1 } from '../server.mjs';
+import { _ as _sfc_main$5 } from './Breadcrumb-92cb573c.mjs';
+import { _ as _export_sfc, u as useHead, a as useCookie, k as useI18n, b as useNuxtApp, d as __nuxt_component_0, j as _imports_1 } from '../server.mjs';
 import { r as render$4, _ as __nuxt_component_0$1 } from './Dropdown-666ad98b.mjs';
 import { _ as __nuxt_component_1 } from './SearchBar-a0fe3266.mjs';
 import { r as render$7 } from './XMarkIcon-170c776f.mjs';
@@ -11,17 +11,13 @@ import { _ as __nuxt_component_3 } from './Loader-86943425.mjs';
 import { _ as __nuxt_component_1$1 } from './OutlinedButton-945a5cd0.mjs';
 import { d as dateFormat, e as errorMessage } from './constants-9b77e6ea.mjs';
 import { Listbox, ListboxButton, ListboxLabel, ListboxOptions, ListboxOption, Menu, MenuButton, MenuItems, MenuItem, PopoverButton, Popover, PopoverPanel, TransitionRoot, TransitionChild, Dialog, DialogPanel, DialogTitle } from '@headlessui/vue';
-import { u as useAuthStore, k as render$3$1, e as endpoints, f as fetchRequest, s as showTestDetails, h as capitalize, d as calculateAge, S as StatusList, l as render$1$2, m as render$5$1, n as render$2$1, r as render$l, P as PrinterService } from './fetch-63157596.mjs';
+import { u as useAuthStore, k as render$3$1, e as endpoints, f as fetchRequest, s as showTestDetails, h as capitalize, d as calculateAge, S as StatusList, l as render$1$2, m as render$5$1, n as render$2$1, r as render$l, P as PrinterService } from './fetch-39024911.mjs';
 import { r as render$i } from './UserIcon-3d66d73e.mjs';
 import { r as render$g, a as render$1$3 } from './PencilSquareIcon-77446728.mjs';
 import { r as render$j } from './ArrowDownTrayIcon-16af2c05.mjs';
 import { r as render$k } from './ArrowUturnLeftIcon-33d23cb1.mjs';
 import moment from 'moment';
 import { r as render$m } from './PrinterIcon-02ac6ae4.mjs';
-<<<<<<<< HEAD:server/chunks/app/_nuxt/index-13879f21.mjs
-========
-import { u as useHead } from './index-2cdcde44.mjs';
->>>>>>>> db8a3962de902d8d9f97ce555bb6c63b1094610b:server/chunks/app/_nuxt/index-9d6570ff.mjs
 import { P as Package } from './package-f9450e57.mjs';
 import { r as render$3 } from './MagnifyingGlassIcon-7f68e1d6.mjs';
 import { r as render$5 } from './ChevronDownIcon-52225b8e.mjs';
@@ -36,20 +32,37 @@ import { r as render$e } from './ArchiveBoxXMarkIcon-1426f444.mjs';
 import { r as render$f } from './HandThumbDownIcon-7e2e48a6.mjs';
 import { r as render$h } from './ArrowPathIcon-6ff7b048.mjs';
 import 'vue-bundle-renderer/runtime';
+import 'h3';
+import 'devalue';
 import '../../nitro/node-server.mjs';
+import 'node-fetch-native/polyfill';
 import 'node:http';
 import 'node:https';
-import 'fs';
-import 'path';
+import 'destr';
+import 'ofetch';
+import 'unenv/runtime/fetch/index';
+import 'hookable';
+import 'scule';
+import 'klona';
+import 'defu';
+import 'ohash';
+import 'ufo';
+import 'unstorage';
+import 'radix3';
 import 'node:fs';
 import 'node:url';
-import 'devalue';
-import './nuxt-link-42c558b2.mjs';
+import 'pathe';
+import 'http-graceful-shutdown';
+import './nuxt-link-149f0ed2.mjs';
 import './HomeIcon-299b993b.mjs';
+import 'unctx';
 import 'vue-router';
 import '@unhead/ssr';
 import 'unhead';
 import '@unhead/shared';
+import '@intlify/core-base';
+import 'cookie-es';
+import 'is-https';
 import '@formkit/core';
 import '@formkit/utils';
 import '@formkit/inputs';
@@ -2877,11 +2890,7 @@ const _sfc_main = {
           return {
             ...test,
             name: `${capitalize(
-<<<<<<<< HEAD:server/chunks/app/_nuxt/index-13879f21.mjs
               `${(_a = test.client) == null ? void 0 : _a.first_name} ${((_b = test.client) == null ? void 0 : _b.middle_name) !== null ? test.client.middle_name : ""} ${(_c = test.client) == null ? void 0 : _c.last_name}`
-========
-              `${(_a = test.client) == null ? void 0 : _a.first_name} ${((_b = test.client) == null ? void 0 : _b.middle_name) ? test.client.middle_name : ""} ${(_c = test.client) == null ? void 0 : _c.last_name}`
->>>>>>>> db8a3962de902d8d9f97ce555bb6c63b1094610b:server/chunks/app/_nuxt/index-9d6570ff.mjs
             )} (${test.client.sex}, ${calculateAge(
               (_d = test.client) == null ? void 0 : _d.date_of_birth
             )} yrs)`,
@@ -3377,8 +3386,4 @@ _sfc_main.setup = (props, ctx) => {
 const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 
 export { index as default };
-<<<<<<<< HEAD:server/chunks/app/_nuxt/index-13879f21.mjs
 //# sourceMappingURL=index-13879f21.mjs.map
-========
-//# sourceMappingURL=index-9d6570ff.mjs.map
->>>>>>>> db8a3962de902d8d9f97ce555bb6c63b1094610b:server/chunks/app/_nuxt/index-9d6570ff.mjs
