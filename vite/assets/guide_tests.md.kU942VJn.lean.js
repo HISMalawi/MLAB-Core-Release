@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as s,R as n}from"./chunks/framework.TypptRFE.js";const _=JSON.parse('{"title":"4. TESTS","description":"","frontmatter":{},"headers":[],"relativePath":"guide/tests.md","filePath":"guide/tests.md"}'),o={name:"guide/tests.md"},r=n("",9),i=[r];function a(l,c,h,d,g,u){return e(),s("div",null,i)}const b=t(o,[["render",a]]);export{_ as __pageData,b as default};
