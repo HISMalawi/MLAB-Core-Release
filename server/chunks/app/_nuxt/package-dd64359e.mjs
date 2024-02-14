@@ -65,11 +65,7 @@ const dependencies = {
   "vue3-xlsx": "^1.1.2",
   vuex: "^4.1.0"
 };
-<<<<<<<< HEAD:server/chunks/app/_nuxt/package-dd64359e.mjs
 const version = "v3.0.1-beta-3";
-========
-const version = "v3.0.1-beta-2";
->>>>>>>> 6676e6c582c458131c78193d4457be94894744ff:server/chunks/app/_nuxt/package-b5464064.mjs
 const Package = {
   "private": true,
   name,
@@ -80,8 +76,4 @@ const Package = {
 };
 
 export { Package as P };
-<<<<<<<< HEAD:server/chunks/app/_nuxt/package-dd64359e.mjs
 //# sourceMappingURL=package-dd64359e.mjs.map
-========
-//# sourceMappingURL=package-b5464064.mjs.map
->>>>>>>> 6676e6c582c458131c78193d4457be94894744ff:server/chunks/app/_nuxt/package-b5464064.mjs

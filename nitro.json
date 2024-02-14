@@ -1,10 +1,13 @@
 {
-<<<<<<< HEAD
-  "date": "2024-02-14T13:22:30.197Z",
-=======
-  "date": "2024-02-10T08:48:19.849Z",
->>>>>>> 6676e6c582c458131c78193d4457be94894744ff
+  "date": "2024-02-14T13:44:40.266Z",
   "preset": "node-server",
+  "framework": {
+    "name": "nitro",
+    "version": "2.8.1"
+  },
+  "versions": {
+    "nitro": "2.8.1"
+  },
   "commands": {
     "preview": "node ./server/index.mjs"
   }

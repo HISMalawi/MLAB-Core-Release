@@ -1,19 +1,15 @@
 import { b as buildAssetsURL } from '../../handlers/renderer.mjs';
-import { _ as _sfc_main$1 } from './Breadcrumb-92cb573c.mjs';
-import { _ as _export_sfc, u as useHead, a as useCookie, d as __nuxt_component_0 } from '../server.mjs';
-import { _ as __nuxt_component_1 } from './index-ec6348c9.mjs';
+import { _ as _sfc_main$1 } from './Breadcrumb-fc731a79.mjs';
+import { _ as _export_sfc, u as useCookie, b as __nuxt_component_0 } from '../server.mjs';
+import { _ as __nuxt_component_1 } from './index-2530b8db.mjs';
 import { _ as __nuxt_component_3 } from './Loader-86943425.mjs';
 import { a as dateRange, d as dateFormat } from './constants-9b77e6ea.mjs';
-import { e as endpoints, f as fetchRequest, d as calculateAge } from './fetch-39024911.mjs';
+import { e as endpoints, f as fetchRequest, d as calculateAge } from './fetch-63157596.mjs';
 import { resolveComponent, mergeProps, unref, useSSRContext } from 'vue';
+import { u as useHead } from './index-2cdcde44.mjs';
 import moment from 'moment';
-<<<<<<<< HEAD:server/chunks/app/_nuxt/_patientId_-9e56656c.mjs
 import { u as useFacilityStore } from './facility-ee716abe.mjs';
 import { P as Package } from './package-dd64359e.mjs';
-========
-import { u as useFacilityStore } from './facility-06a246b8.mjs';
-import { P as Package } from './package-b5464064.mjs';
->>>>>>>> 6676e6c582c458131c78193d4457be94894744ff:server/chunks/app/_nuxt/_patientId_-b8963ce4.mjs
 import { r as render } from './UserIcon-3d66d73e.mjs';
 import { r as render$1 } from './QrCodeIcon-566a836e.mjs';
 import { r as render$2 } from './FunnelIcon-9d1b5e2d.mjs';
@@ -22,37 +18,20 @@ import { r as render$4 } from './ArrowPathIcon-6ff7b048.mjs';
 import { ssrRenderAttrs, ssrRenderComponent, ssrRenderAttr, ssrInterpolate, ssrIncludeBooleanAttr, ssrLooseContain, ssrRenderList, ssrRenderStyle } from 'vue/server-renderer';
 import { _ as _imports_0$1 } from './logo-86b75328.mjs';
 import 'vue-bundle-renderer/runtime';
-import 'h3';
-import 'devalue';
 import '../../nitro/node-server.mjs';
-import 'node-fetch-native/polyfill';
 import 'node:http';
 import 'node:https';
-import 'destr';
-import 'ofetch';
-import 'unenv/runtime/fetch/index';
-import 'hookable';
-import 'scule';
-import 'klona';
-import 'defu';
-import 'ohash';
-import 'ufo';
-import 'unstorage';
-import 'radix3';
+import 'fs';
+import 'path';
 import 'node:fs';
 import 'node:url';
-import 'pathe';
-import 'http-graceful-shutdown';
-import './nuxt-link-149f0ed2.mjs';
+import 'devalue';
+import './nuxt-link-42c558b2.mjs';
 import './HomeIcon-299b993b.mjs';
-import 'unctx';
 import 'vue-router';
 import '@unhead/ssr';
 import 'unhead';
 import '@unhead/shared';
-import '@intlify/core-base';
-import 'cookie-es';
-import 'is-https';
 import '@formkit/core';
 import '@formkit/utils';
 import '@formkit/inputs';
@@ -352,7 +331,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }
   _push(`</div></div>`);
   if ($data.reportData.length > 0) {
-    _push(`<div class="border rounded print-container mt-10"><div class="rounded-tr rounded-tl border-b px-5 py-5"><div class="flex items-center justify-between"><div class="flex items-center space-x-2"><img${ssrRenderAttr("src", _imports_0$1)} alt="app-logo" class="w-24 h-24 object-cover"><h3 class="text-2xl font-semibold">PATIENT REPORT</h3></div><div class="bg-gray-50 px-4 py-2 rounded border border-dotted"><address class="font-normal"><span class="flex items-center not-italic text-xl font-semibold border-b mb-2 border-dotted">${ssrInterpolate($data.facility.details.name)}</span><span class="flex items-center not-italic text-gray-600">${ssrInterpolate($data.facility.details.address)}</span><span class="flex items-center not-italic text-gray-600">${ssrInterpolate($data.facility.details.phone)}</span></address></div></div><div class="flex items-center justify-between mt-5"><div><span class="font-medium">Report Date:</span> ${ssrInterpolate($data.moment( new Date()).format("dateFormat" in _ctx ? _ctx.dateFormat : unref(dateFormat)))}</div><div><span class="font-medium">No. Printed:</span> ${ssrInterpolate($options.getPrintCount($data.reportData))}</div><div><span class="font-medium">Date Sample Collected:</span> ${ssrInterpolate($data.reportData.length > 0 && $data.moment($data.reportData[0].sample_collected_time).format("dateFormat" in _ctx ? _ctx.dateFormat : unref(dateFormat)))}</div></div><table class="w-full mt-2"><tbody><tr><td class="border px-2 py-2 font-bold">Patient Name</td><td class="border px-2 py-2">${ssrInterpolate(`${$data.person.first_name} ${$data.person.middle_name} ${$data.person.last_name}`)}</td><td class="border px-2 py-2 font-bold">Sex</td><td class="border px-2 py-2">${ssrInterpolate($data.person.sex === "F" ? "Female" : "Male")}</td><td class="border px-2 py-2 font-bold">Age</td><td class="border px-2 py-2">${ssrInterpolate(("calculateAge" in _ctx ? _ctx.calculateAge : unref(calculateAge))($data.person.date_of_birth))} yr(s) </td></tr><tr><td class="border px-2 py-2 font-bold">Patient ID</td><td class="border px-2 py-2">${ssrInterpolate($data.person.id)}</td><td class="border px-2 py-2 font-bold" colspan="2">Address</td><td class="border px-2 py-2" colspan="2">${ssrInterpolate($options.getPhysicalAddress)}</td></tr></tbody></table></div><!--[-->`);
+    _push(`<div class="border rounded print-container mt-10"><div class="rounded-tr rounded-tl border-b px-5 py-5"><div class="flex items-center justify-between"><div class="flex items-center space-x-2"><img${ssrRenderAttr("src", _imports_0$1)} alt="app-logo" class="w-24 h-24 object-cover"><h3 class="text-2xl font-semibold">PATIENT REPORT</h3></div><div class="bg-gray-50 px-4 py-2 rounded border border-dotted"><address class="font-normal"><span class="flex items-center not-italic text-xl font-semibold border-b mb-2 border-dotted">${ssrInterpolate($data.facility.details.name)}</span><span class="flex items-center not-italic text-gray-600">${ssrInterpolate($data.facility.details.address)}</span><span class="flex items-center not-italic text-gray-600">${ssrInterpolate($data.facility.details.phone)}</span></address></div></div><div class="flex items-center justify-between mt-5"><div><span class="font-medium">Report Date:</span> ${ssrInterpolate($data.moment(/* @__PURE__ */ new Date()).format("dateFormat" in _ctx ? _ctx.dateFormat : unref(dateFormat)))}</div><div><span class="font-medium">No. Printed:</span> ${ssrInterpolate($options.getPrintCount($data.reportData))}</div><div><span class="font-medium">Date Sample Collected:</span> ${ssrInterpolate($data.reportData.length > 0 && $data.moment($data.reportData[0].sample_collected_time).format("dateFormat" in _ctx ? _ctx.dateFormat : unref(dateFormat)))}</div></div><table class="w-full mt-2"><tbody><tr><td class="border px-2 py-2 font-bold">Patient Name</td><td class="border px-2 py-2">${ssrInterpolate(`${$data.person.first_name} ${$data.person.middle_name} ${$data.person.last_name}`)}</td><td class="border px-2 py-2 font-bold">Sex</td><td class="border px-2 py-2">${ssrInterpolate($data.person.sex === "F" ? "Female" : "Male")}</td><td class="border px-2 py-2 font-bold">Age</td><td class="border px-2 py-2">${ssrInterpolate(("calculateAge" in _ctx ? _ctx.calculateAge : unref(calculateAge))($data.person.date_of_birth))} yr(s) </td></tr><tr><td class="border px-2 py-2 font-bold">Patient ID</td><td class="border px-2 py-2">${ssrInterpolate($data.person.id)}</td><td class="border px-2 py-2 font-bold" colspan="2">Address</td><td class="border px-2 py-2" colspan="2">${ssrInterpolate($options.getPhysicalAddress)}</td></tr></tbody></table></div><!--[-->`);
     ssrRenderList($data.reportData, (report, index) => {
       _push(`<div><div class="bg-gray-100 text-gray-600 border-b flex items-center justify-between px-2 py-2 font-medium"><div class="flex items-center"> Accession No: ${ssrInterpolate(report.accession_number)}</div><div> Requested By: ${ssrInterpolate(report.requested_by)} (${ssrInterpolate(report.requesting_ward)}) </div></div><table class="border-collapse border-slate-500 w-full"><tbody><tr><td class="border-b border-r px-2 py-2 font-bold"> Specimen Type </td><td class="border-b border-r px-2 py-2">${ssrInterpolate(report.specimen)}</td><td class="border-b border-r px-2 py-2 font-bold"> Date Registered </td><td class="border-b px-2 py-2">${ssrInterpolate($data.moment(report.created_date).format("dateFormat" in _ctx ? _ctx.dateFormat : unref(dateFormat)))}</td></tr><tr><td class="border-b border-r px-2 py-2 font-bold"> Test Type(s) </td><td class="border-b border-r px-2 py-2">${ssrInterpolate($options.getTestTypes(report.test_types))}</td><td class="border-b border-r px-2 py-2 font-bold"> Lab Sections </td><td class="border-b px-2 py-2">${ssrInterpolate($options.getDepartments(report.test_types))}</td></tr><tr><td class="border-b border-r px-2 py-2 font-bold"> Specimen Status </td><td class="border-b border-r px-2 py-2">${ssrInterpolate($options.getOrderStatus(report.order_status))}</td><td class="border-b border-r px-2 py-2 font-bold"> Received By </td><td class="border-b px-2 py-2">${ssrInterpolate($options.getOrderStatusInitiatorName(report.order_status_trail))}</td></tr></tbody></table><table class="border-collapse w-full"><thead><tr class="bg-gray-100 text-gray-600"><th class="px-2 py-2 text-lg font-semibold">Results</th><th${ssrRenderAttr("colspan", 3)} class="px-2 py-2 text-lg font-semibold"> Tests Authorized(${ssrInterpolate(report.tests_verified)}) </th></tr></thead><tbody><tr><th class="border px-2 py-2 font-bold">Test Types</th><th class="border px-2 py-2 font-bold">Results</th><th class="border px-2 py-2 font-bold">Remarks</th><th class="border px-2 py-2 font-bold">Audit details</th></tr><!--[-->`);
       ssrRenderList($data.showPendingTests ? report.tests : report.tests.filter((item) => item.status.toLowerCase() !== "pending"), (test) => {
@@ -456,8 +435,4 @@ _sfc_main.setup = (props, ctx) => {
 const _patientId_ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 
 export { _patientId_ as default };
-<<<<<<<< HEAD:server/chunks/app/_nuxt/_patientId_-9e56656c.mjs
 //# sourceMappingURL=_patientId_-9e56656c.mjs.map
-========
-//# sourceMappingURL=_patientId_-b8963ce4.mjs.map
->>>>>>>> 6676e6c582c458131c78193d4457be94894744ff:server/chunks/app/_nuxt/_patientId_-b8963ce4.mjs

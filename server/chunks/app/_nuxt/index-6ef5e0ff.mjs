@@ -1,15 +1,14 @@
-import { u as useHead, g as useRouter, d as __nuxt_component_0$1, b as useNuxtApp, _ as _export_sfc } from '../server.mjs';
+import { f as useRouter, b as __nuxt_component_0$1, a as useNuxtApp, _ as _export_sfc } from '../server.mjs';
 import { _ as __nuxt_component_1 } from './OutlinedButton-945a5cd0.mjs';
 import { useSSRContext, defineComponent, ref, unref, resolveComponent, withCtx, createVNode, createTextVNode, isRef, withAsyncContext, mergeProps, toDisplayString, openBlock, createBlock, createCommentVNode, Fragment, renderList, Transition, createElementBlock, createElementVNode, withDirectives, vShow } from 'vue';
 import { ssrRenderAttrs, ssrRenderComponent, ssrRenderAttr, ssrInterpolate, ssrRenderList, ssrRenderClass, ssrRenderStyle } from 'vue/server-renderer';
 import { TransitionRoot, Dialog, TransitionChild, DialogPanel, DialogTitle, Listbox, ListboxButton, ListboxOptions, ListboxOption } from '@headlessui/vue';
-import { b as useNetworkStore, f as fetchRequest, u as useAuthStore, e as endpoints } from './fetch-39024911.mjs';
+import { b as useNetworkStore, f as fetchRequest, u as useAuthStore, e as endpoints } from './fetch-63157596.mjs';
 import { r as render$4 } from './XMarkIcon-170c776f.mjs';
 import { r as render$5 } from './ArrowPathIcon-6ff7b048.mjs';
-import { _ as __nuxt_component_0$2 } from './nuxt-link-149f0ed2.mjs';
+import { _ as __nuxt_component_0$2 } from './nuxt-link-42c558b2.mjs';
 import { _ as _imports_1 } from './git-branch-outline-ea905992.mjs';
 import { _ as _imports_0 } from './logo-86b75328.mjs';
-<<<<<<<< HEAD:server/chunks/app/_nuxt/index-6ef5e0ff.mjs
 import { u as useFacilityStore } from './facility-ee716abe.mjs';
 import { P as Package } from './package-dd64359e.mjs';
 import { u as useHead } from './index-2cdcde44.mjs';
@@ -20,23 +19,10 @@ import 'fs';
 import 'path';
 import 'node:fs';
 import 'node:url';
-========
-import { u as useFacilityStore } from './facility-06a246b8.mjs';
-import { P as Package } from './package-b5464064.mjs';
-import 'ofetch';
-import 'hookable';
-import 'unctx';
->>>>>>>> 6676e6c582c458131c78193d4457be94894744ff:server/chunks/app/_nuxt/index-fe3b310e.mjs
 import 'vue-router';
-import 'h3';
-import 'ufo';
-import 'destr';
 import '@unhead/ssr';
 import 'unhead';
 import '@unhead/shared';
-import '@intlify/core-base';
-import 'cookie-es';
-import 'is-https';
 import '@formkit/core';
 import '@formkit/utils';
 import '@formkit/inputs';
@@ -46,27 +32,12 @@ import '@formkit/i18n';
 import '@formkit/themes';
 import '@formkit/observer';
 import '@formkit/icons';
-import 'ohash';
 import 'pinia-plugin-persistedstate';
 import 'vue3-easy-data-table';
 import '@vuepic/vue-datepicker';
 import 'vue-json-excel3';
 import '@vueform/multiselect';
 import 'vue3-toastify';
-import 'defu';
-import '../../nitro/node-server.mjs';
-import 'node-fetch-native/polyfill';
-import 'node:http';
-import 'node:https';
-import 'unenv/runtime/fetch/index';
-import 'scule';
-import 'klona';
-import 'unstorage';
-import 'radix3';
-import 'node:fs';
-import 'node:url';
-import 'pathe';
-import 'http-graceful-shutdown';
 import '../../handlers/renderer.mjs';
 import 'vue-bundle-renderer/runtime';
 import 'devalue';
@@ -1181,7 +1152,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
         }),
         _: 1
       }, _parent));
-      _push(`</div></div><div class="mt-5 flex flex-col space-y-2 items-center justify-center"><p class="text-center text-gray-500"> Malawi Ministry of Health \xA9 ${ssrInterpolate(( new Date()).getFullYear())}</p></div></div>`);
+      _push(`</div></div><div class="mt-5 flex flex-col space-y-2 items-center justify-center"><p class="text-center text-gray-500"> Malawi Ministry of Health \xA9 ${ssrInterpolate((/* @__PURE__ */ new Date()).getFullYear())}</p></div></div>`);
     };
   }
 });
@@ -1221,8 +1192,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-<<<<<<<< HEAD:server/chunks/app/_nuxt/index-6ef5e0ff.mjs
 //# sourceMappingURL=index-6ef5e0ff.mjs.map
-========
-//# sourceMappingURL=index-fe3b310e.mjs.map
->>>>>>>> 6676e6c582c458131c78193d4457be94894744ff:server/chunks/app/_nuxt/index-fe3b310e.mjs

@@ -1,7 +1,7 @@
+import { u as useHead } from './index-2cdcde44.mjs';
 import { defineComponent, mergeProps, unref, useSSRContext } from 'vue';
-import { u as useHead, e as useRuntimeConfig } from '../server.mjs';
+import { d as useRuntimeConfig } from '../server.mjs';
 import { ssrRenderAttrs, ssrRenderAttr, ssrRenderStyle } from 'vue/server-renderer';
-<<<<<<<< HEAD:server/chunks/app/_nuxt/help-support-b049b263.mjs
 import { P as Package } from './package-dd64359e.mjs';
 import '@unhead/shared';
 import '../../nitro/node-server.mjs';
@@ -11,22 +11,9 @@ import 'fs';
 import 'path';
 import 'node:fs';
 import 'node:url';
-========
-import { P as Package } from './package-b5464064.mjs';
-import 'ofetch';
-import 'hookable';
-import 'unctx';
->>>>>>>> 6676e6c582c458131c78193d4457be94894744ff:server/chunks/app/_nuxt/help-support-b5de2d7b.mjs
 import 'vue-router';
-import 'h3';
-import 'ufo';
-import 'destr';
 import '@unhead/ssr';
 import 'unhead';
-import '@unhead/shared';
-import '@intlify/core-base';
-import 'cookie-es';
-import 'is-https';
 import '@formkit/core';
 import '@formkit/utils';
 import '@formkit/inputs';
@@ -36,27 +23,12 @@ import '@formkit/i18n';
 import '@formkit/themes';
 import '@formkit/observer';
 import '@formkit/icons';
-import 'ohash';
 import 'pinia-plugin-persistedstate';
 import 'vue3-easy-data-table';
 import '@vuepic/vue-datepicker';
 import 'vue-json-excel3';
 import '@vueform/multiselect';
 import 'vue3-toastify';
-import 'defu';
-import '../../nitro/node-server.mjs';
-import 'node-fetch-native/polyfill';
-import 'node:http';
-import 'node:https';
-import 'unenv/runtime/fetch/index';
-import 'scule';
-import 'klona';
-import 'unstorage';
-import 'radix3';
-import 'node:fs';
-import 'node:url';
-import 'pathe';
-import 'http-graceful-shutdown';
 
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "help-support",
@@ -79,8 +51,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-<<<<<<<< HEAD:server/chunks/app/_nuxt/help-support-b049b263.mjs
 //# sourceMappingURL=help-support-b049b263.mjs.map
-========
-//# sourceMappingURL=help-support-b5de2d7b.mjs.map
->>>>>>>> 6676e6c582c458131c78193d4457be94894744ff:server/chunks/app/_nuxt/help-support-b5de2d7b.mjs
