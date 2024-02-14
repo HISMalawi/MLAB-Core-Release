@@ -1,35 +1,40 @@
 import { createRenderer } from 'vue-bundle-renderer/runtime';
-import { e as eventHandler, s as setResponseHeader, a as send, g as getResponseStatus, b as setResponseStatus, c as setResponseHeaders, u as useNitroApp, j as joinURL, d as useRuntimeConfig, f as getQuery, h as createError, i as getRouteRules } from '../nitro/node-server.mjs';
+import { eventHandler, setResponseStatus, getQuery, createError } from 'h3';
 import { stringify, uneval } from 'devalue';
 import { renderToString } from 'vue/server-renderer';
+import { u as useNitroApp, a as useRuntimeConfig, g as getRouteRules } from '../nitro/node-server.mjs';
+import { joinURL } from 'ufo';
 
 function defineRenderHandler(handler) {
   return eventHandler(async (event) => {
-    if (event.path.endsWith("/favicon.ico")) {
-      setResponseHeader(event, "Content-Type", "image/x-icon");
-      return send(
-        event,
-        "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-      );
+    if (event.node.req.url.endsWith("/favicon.ico")) {
+      if (!event.handled) {
+        event.node.res.setHeader("Content-Type", "image/x-icon");
+        event.node.res.end(
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        );
+      }
+      return;
     }
     const response = await handler(event);
     if (!response) {
-      const _currentStatus = getResponseStatus(event);
-      setResponseStatus(event, _currentStatus === 200 ? 500 : _currentStatus);
-      return send(
-        event,
-        "No response returned from render handler: " + event.path
-      );
+      if (!event.handled) {
+        event.node.res.statusCode = event.node.res.statusCode === 200 ? 500 : event.node.res.statusCode;
+        event.node.res.end(
+          "No response returned from render handler: " + event.node.req.url
+        );
+      }
+      return;
     }
     const nitroApp = useNitroApp();
     await nitroApp.hooks.callHook("render:response", response, { event });
-    if (response.headers) {
-      setResponseHeaders(event, response.headers);
-    }
-    if (response.statusCode || response.statusMessage) {
+    if (!event.node.res.headersSent && response.headers) {
+      for (const header in response.headers) {
+        event.node.res.setHeader(header, response.headers[header]);
+      }
       setResponseStatus(event, response.statusCode, response.statusMessage);
     }
-    return response.body;
+    return typeof response.body === "string" ? response.body : JSON.stringify(response.body);
   });
 }
 
