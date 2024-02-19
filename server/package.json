@@ -1,6 +1,6 @@
 {
   "name": "IBLIS-prod",
-  "version": "v3.0.1-beta-3",
+  "version": "v3.0.1-beta-5",
   "type": "module",
   "private": true,
   "dependencies": {
