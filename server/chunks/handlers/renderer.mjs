@@ -1,7 +1,12 @@
 import { createRenderer } from 'vue-bundle-renderer/runtime';
 import { e as eventHandler, s as setResponseHeader, a as send, g as getResponseStatus, b as setResponseStatus, c as setResponseHeaders, u as useNitroApp, j as joinURL, d as useRuntimeConfig, f as getQuery, h as createError, i as getRouteRules } from '../nitro/node-server.mjs';
 import { stringify, uneval } from 'devalue';
-import { renderToString } from 'vue/server-renderer';
+import 'node:http';
+import 'node:https';
+import 'fs';
+import 'path';
+import 'node:fs';
+import 'node:url';
 
 function defineRenderHandler(handler) {
   return eventHandler(async (event) => {
@@ -51,36 +56,8 @@ function publicAssetsURL(...path) {
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
 const getClientManifest = () => import('../app/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
-const getEntryIds = () => getClientManifest().then((r) => Object.values(r).filter(
-  (r2) => (
-    // @ts-expect-error internal key set by CSS inlining configuration
-    r2._globalCSS
-  )
-).map((r2) => r2.src));
 const getStaticRenderedHead = () => import('../rollup/_virtual_head-static.mjs').then((r) => r.default || r);
-const getServerEntry = () => import('../app/server.mjs').then((r) => r.default || r);
 const getSSRStyles = lazyCachedFunction(() => import('../app/styles.mjs').then((r) => r.default || r));
-const getSSRRenderer = lazyCachedFunction(async () => {
-  const manifest = await getClientManifest();
-  if (!manifest) {
-    throw new Error("client.manifest is not available");
-  }
-  const createSSRApp = await getServerEntry();
-  if (!createSSRApp) {
-    throw new Error("Server bundle is not available");
-  }
-  const options = {
-    manifest,
-    renderToString: renderToString$1,
-    buildAssetsURL
-  };
-  const renderer = createRenderer(createSSRApp, options);
-  async function renderToString$1(input, context) {
-    const html = await renderToString(input, context);
-    return `<${appRootTag} id="${appRootId}">${html}</${appRootTag}>`;
-  }
-  return renderer;
-});
 const getSPARenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   const spaTemplate = await import('../rollup/_virtual_spa-template.mjs').then((r) => r.template).catch(() => "");
@@ -138,7 +115,7 @@ const renderer = defineRenderHandler(async (event) => {
     url,
     event,
     runtimeConfig: useRuntimeConfig(),
-    noSSR: event.context.nuxt?.noSSR || routeOptions.ssr === false || (false),
+    noSSR: !!true   ,
     error: !!ssrError,
     nuxt: void 0,
     /* NuxtApp */
@@ -146,7 +123,7 @@ const renderer = defineRenderHandler(async (event) => {
     _payloadReducers: {},
     islandContext
   };
-  const renderer = ssrContext.noSSR ? await getSPARenderer() : await getSSRRenderer();
+  const renderer = await getSPARenderer() ;
   const _rendered = await renderer.renderToString(ssrContext).catch(async (error) => {
     if (ssrContext._renderResponse && error.message === "skipping render") {
       return {};
@@ -167,15 +144,7 @@ const renderer = defineRenderHandler(async (event) => {
     return response2;
   }
   const renderedMeta = await ssrContext.renderMeta?.() ?? {};
-  {
-    const source = ssrContext.modules ?? ssrContext._registeredComponents;
-    if (source) {
-      for (const id of await getEntryIds()) {
-        source.add(id);
-      }
-    }
-  }
-  const inlinedStyles = await renderInlineStyles(ssrContext.modules ?? ssrContext._registeredComponents ?? []) ;
+  const inlinedStyles = Boolean(islandContext) ? await renderInlineStyles(ssrContext.modules ?? ssrContext._registeredComponents ?? []) : "";
   const NO_SCRIPTS = routeOptions.experimentalNoScripts;
   const htmlContext = {
     island: Boolean(islandContext),
@@ -268,7 +237,7 @@ function renderPayloadJsonScript(opts) {
   const attrs = [
     'type="application/json"',
     `id="${opts.id}"`,
-    `data-ssr="${!(opts.ssrContext.noSSR)}"`,
+    `data-ssr="${!(true )}"`,
     opts.src ? `data-src="${opts.src}"` : ""
   ].filter(Boolean);
   const contents = opts.data ? stringify(opts.data, opts.ssrContext._payloadReducers) : "";
@@ -282,10 +251,5 @@ function splitPayload(ssrContext) {
   };
 }
 
-const renderer$1 = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  default: renderer
-});
-
-export { buildAssetsURL as b, renderer$1 as r };
+export { renderer as default };
 //# sourceMappingURL=renderer.mjs.map
