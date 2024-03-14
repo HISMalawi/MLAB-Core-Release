@@ -13,7 +13,7 @@ module.exports = {
             script: 'serve',
             env: {
                 PM2_SERVE_PATH: './vite',
-                PM2_SERVE_PORT: 4173,
+                PM2_SERVE_PORT: 5173,
                 PM2_SERVE_SPA: 'true',
                 NODE_ENV: 'production'
             }
