@@ -9,7 +9,7 @@ module.exports = {
             }
         },
         {
-            name: 'Iblis docs',
+            name: 'IBLIS Docs',
             script: 'serve',
             env: {
                 PM2_SERVE_PATH: './vite',
@@ -19,7 +19,17 @@ module.exports = {
             }
         },
         {
-            name: 'Iblis Reception',
+            name: 'IBLIS Machine Integration',
+            script: 'serve',
+            env: {
+                PM2_SERVE_PATH: './machine-integration',
+                PM2_SERVE_PORT: 5181,
+                PM2_SERVE_SPA: 'true',
+                NODE_ENV: 'production'
+            }
+        },
+        {
+            name: 'IBLIS Reception',
             script: 'serve',
             env: {
                 PM2_SERVE_PATH: './iblis_reception',
