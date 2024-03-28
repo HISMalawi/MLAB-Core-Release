@@ -1,6 +1,0 @@
-"use strict";(globalThis["webpackChunkIBLISReception"]=globalThis["webpackChunkIBLISReception"]||[]).push([[5399,3030,9437],{3030:(t,e,r)=>{r.r(e),r.d(e,{i:()=>n});
-/*!
- * (C) Ionic http://ionicframework.com - MIT License
- */
-var n=function(t){return t&&""!==t.dir?"rtl"===t.dir.toLowerCase():"rtl"===(null===document||void 0===document?void 0:document.dir.toLowerCase())}},5399:(t,e,r)=>{r.r(e),r.d(e,{createSwipeBackGesture:()=>a});var n=r(5077),i=r(3030),o=r(9260),a=(r(4861),function(t,e,r,a,u){var c=t.ownerDocument.defaultView,d=(0,i.i)(t),l=function(t){var e=50,r=t.startX;return d?r>=c.innerWidth-e:r<=e},s=function(t){return d?-t.deltaX:t.deltaX},h=function(t){return d?-t.velocityX:t.velocityX},v=function(r){return d=(0,i.i)(t),l(r)&&e()},f=function(t){var e=s(t),r=e/c.innerWidth;a(r)},w=function(t){var e=s(t),r=c.innerWidth,i=e/r,o=h(t),a=r/2,d=o>=0&&(o>.2||e>a),l=d?1-i:i,v=l*r,f=0;if(v>5){var w=v/Math.abs(o);f=Math.min(w,540)}u(d,i<=0?.01:(0,n.l)(0,i,.9999),f)};return(0,o.createGesture)({el:t,gestureName:"goback-swipe",gesturePriority:101,threshold:10,canStart:v,onStart:r,onMove:f,onEnd:w})})}}]);
-//# sourceMappingURL=5399.c06223c6.js.map
