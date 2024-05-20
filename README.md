@@ -1,7 +1,7 @@
 # MLAB Core Release
 IBLIS Frontend Releases
 ## Prerequsites
-- Node.js^16.x or greater
+- Node.js^18.x or greater
 - PM2
 # Installation
 1. Clone the repository:
