@@ -1,1 +1,0 @@
-import{m as t,o,c as n,d as _,as as a}from"./entry.7a85215a.js";const s={class:"bg-white"},d=t({__name:"default",setup(c){return(p,r)=>{const e=a;return o(),n("div",s,[_(e)])}}});export{d as default};
