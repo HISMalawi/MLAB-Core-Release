@@ -1,0 +1,1 @@
+import{a9 as o,aa as r}from"./entry.ede29211.js";const i="0.0.0.0",a=8005,e={ip:i,port:a},p=()=>{const t=new Date;return t.setDate(t.getDate()+365*5),t},c=o("network",{state:()=>({ip:e.ip,port:e.port}),actions:{async updateNetwork(t,s){this.ip=t,this.port=s}},persist:{storage:r.cookiesWithOptions({secure:!1,sameSite:"strict",expires:p()})}});export{c as u};
