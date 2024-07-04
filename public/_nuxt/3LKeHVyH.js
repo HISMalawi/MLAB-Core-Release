@@ -1,1 +1,0 @@
-import{W as o,aq as r}from"./Cg5p-McN.js";const i="0.0.0.0",p=8005,e={ip:i,port:p},a=()=>{const t=new Date;return t.setDate(t.getDate()+365*5),t},c=o("network",{state:()=>({ip:e.ip,port:e.port}),actions:{async updateNetwork(t,s){this.ip=t,this.port=s}},persist:{storage:r.cookiesWithOptions({secure:!1,sameSite:"strict",expires:a()})}});export{c as u};
