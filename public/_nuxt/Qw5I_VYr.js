@@ -1,0 +1,1 @@
+const s=(o,r)=>{o.count!==0&&o.associated_ids!==""?r.$router.push(`/reports/${o.associated_ids}?origin=culture&type=culture-sensitivity-${o.type}-report&from=${o.date_filter}&to=${o.date_filter}&test=${o.test}&department=Microbiology&count=${o.count}`):r.$toast.warning("No data found for this month")};export{s};
