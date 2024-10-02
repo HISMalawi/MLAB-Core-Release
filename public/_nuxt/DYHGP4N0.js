@@ -1,0 +1,1 @@
+import{bO as a,aW as r}from"./B6Tj7v0x.js";import{u as i}from"./CNoZcmv_.js";import"./DbZAM_j6.js";import"./CFG611di.js";const f=a((t,e)=>{const{hasPermission:o}=i();if(!o.value("manage_lab_configurations"))return r("/unauthorized")});export{f as default};
