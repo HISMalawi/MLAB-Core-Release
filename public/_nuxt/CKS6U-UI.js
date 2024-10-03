@@ -1,0 +1,1 @@
+import{bO as r,aW as o}from"./CnHVHtNb.js";import{u as s}from"./ijQJjDmU.js";import"./CRaEjCo-.js";import"./DCavMtdm.js";const f=r((t,a)=>{const{hasPermission:e}=s();if(!e.value("manage_users"))return o("/unauthorized")});export{f as default};
