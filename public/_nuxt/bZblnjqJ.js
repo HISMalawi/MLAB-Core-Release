@@ -1,0 +1,1 @@
+import{bE as a,bF as s,a as u,aT as t}from"./DijMqi0f.js";import{u as r,a as n}from"./C3t9ztsf.js";import"./CMd9Miss.js";const l=a(()=>{const{authenticated:e}=s(r());if(u("token").value&&(e.value=!0),e){const{route:o}=n();t(o)}else return t("/")});export{l as default};
