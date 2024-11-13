@@ -18,6 +18,7 @@ IBLIS Frontend Releases
    git fetch --tags
    git checkout [tag]
    git describe --tags
+   bash network.bash
    pm2 start ecosystem.config.js
    pm2 save
 ```
