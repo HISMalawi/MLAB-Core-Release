@@ -19,6 +19,8 @@ IBLIS Frontend Releases
    git checkout [tag]
    git describe --tags
    bash network.bash
+   cp iblis_reception/config.json.example iblis_reception/config.json
+   vim iblis_reception/config.json #Edit config.json to your needs based on the backend
    pm2 start ecosystem.config.js
    pm2 save
 ```
