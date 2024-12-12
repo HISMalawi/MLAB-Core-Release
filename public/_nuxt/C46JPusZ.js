@@ -1,0 +1,1 @@
+import{bh as s}from"./byrs3Ots.js";import{u}from"./JQtyNrok.js";function i(e,a){const{title:r,titleTemplate:o,...m}=e;return u({title:r,titleTemplate:o,_flatMeta:m},{...a,transform(t){const n=s({...t._flatMeta});return delete t._flatMeta,{...t,meta:n}}})}export{i as u};
