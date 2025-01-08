@@ -1,0 +1,1 @@
+import{u as e}from"./CyQtHmcB.js";import{bQ as o,aV as t}from"./DBoaM_PM.js";import"./B7DDUixZ.js";import"./DivcG_I2.js";const p=o((s,i)=>{const{hasPermission:r}=e();if(!r.value("view_reports"))return t("/unauthorized")});export{p as default};

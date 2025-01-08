@@ -1,0 +1,1 @@
+import{bQ as a,bR as s,a as u,aV as t}from"./DBoaM_PM.js";import{u as r,a as n}from"./B7DDUixZ.js";import"./DivcG_I2.js";const l=a(()=>{const{authenticated:e}=s(r());if(u("token").value&&(e.value=!0),e){const{route:o}=n();t(o)}else return t("/")});export{l as default};
