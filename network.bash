@@ -8,7 +8,6 @@ echo -e "\033[1;32mCurrent server IP: $SERVER_IP\033[0m"
 # Ensure the JSON is always exactly 36 bytes
 JSON_CONTENT="{\"ip\": \"$SERVER_IP\",\"port\": 8005}"
 JSON_LENGTH=${#JSON_CONTENT}
-
 # If it's too short, pad with spaces
 if [ $JSON_LENGTH -lt 36 ]; then
     PADDED_JSON=$(printf "%-36s" "$JSON_CONTENT")
