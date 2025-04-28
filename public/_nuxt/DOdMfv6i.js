@@ -1,0 +1,1 @@
+import{u as o}from"./CBVR-pog.js";import{bG as e,aT as r}from"./Bz6dDDnm.js";const u=e((i,s)=>{const{hasPermission:a}=o();if(!a.value("manage_lab_configurations"))return r("/unauthorized")});export{u as default};
