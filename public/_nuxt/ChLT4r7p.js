@@ -1,0 +1,1 @@
+import{bG as a,bH as s,J as u,a as r,a0 as n,aT as t}from"./D6i_IOc_.js";const c=a(()=>{const{authenticated:e}=s(u());if(r("token").value&&(e.value=!0),e){const{route:o}=n();t(o)}else return t("/")});export{c as default};
