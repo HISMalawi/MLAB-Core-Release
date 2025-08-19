@@ -1,0 +1,1 @@
+import{u as a}from"./Di-6L_Dx.js";import{bG as t,aT as o}from"./DaR_ss44.js";const i=t((n,s)=>{const{hasPermission:e}=a();if(!e.value("view_stock_management")&&!e.value("manage_stock_management"))return o("/unauthorized")});export{i as default};
