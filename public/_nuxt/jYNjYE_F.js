@@ -1,0 +1,1 @@
+import{r as s,m as n,u as l,aF as c}from"./BXyMujmX.js";function i(){const e=s(!0),a=new c;return{loading:e,executeCancellableRequest:async t=>{e.value=!0;try{return await n(t,a)}finally{e.value=!1}},cancelRequest:()=>{a.cancel(l),e.value=!1}}}export{i as u};

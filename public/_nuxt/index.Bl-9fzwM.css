@@ -1,0 +1,1 @@
+.tooltip{left:50%;transform:translate(-80%)}@media screen and (min-width:768px){.group:hover .tooltip{max-width:90vw}.group:nth-last-child(-n+3) .tooltip{left:auto;right:0;transform:translate(0)}.group:nth-child(-n+3) .tooltip{left:0;transform:translate(0)}}
