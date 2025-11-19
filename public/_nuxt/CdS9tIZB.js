@@ -1,0 +1,1 @@
+import{u as a}from"./CYhEBZLq.js";import{bA as e,b1 as r}from"./CXJT-Lpc.js";const u=e((i,s)=>{const{hasPermission:o}=a();if(!o.value("manage_lab_configurations"))return r("/unauthorized")});export{u as default};

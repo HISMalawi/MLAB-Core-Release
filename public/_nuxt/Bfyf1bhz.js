@@ -1,0 +1,1 @@
+import{bA as a,bB as s,I as u,a as r,am as n,b1 as t}from"./CXJT-Lpc.js";const c=a(()=>{const{authenticated:e}=s(u());if(r("token").value&&(e.value=!0),e){const{route:o}=n();t(o)}else return t("/")});export{c as default};
