@@ -1,0 +1,1 @@
+import{_ as n}from"./WBJqvb0I.js";import{d as _,b as a,e as c,f as t,bC as s}from"./Dq6GAKbi.js";const p={class:"bg-white"},f=_({__name:"default",setup(r){return(m,d)=>{const e=n,o=s;return a(),c("div",p,[t(e),t(o)])}}});export{f as default};

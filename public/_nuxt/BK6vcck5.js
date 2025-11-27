@@ -1,0 +1,1 @@
+import{u as e}from"./DausA3Fa.js";import{bA as a,b1 as o}from"./Dq6GAKbi.js";const u=a((s,r)=>{const{hasPermission:t}=e();if(!t.value("manage_test_catalog"))return o("/unauthorized")});export{u as default};
