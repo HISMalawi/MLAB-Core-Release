@@ -1,0 +1,1 @@
+import{aR as f,ah as d}from"./DZ5FY2E3.js";function N({container:e,accept:t,walk:i,enabled:r}){f(()=>{let a=e.value;if(!a||r!==void 0&&!r.value)return;let c=d(e);if(!c)return;let l=Object.assign(o=>t(o),{acceptNode:t}),n=c.createTreeWalker(a,NodeFilter.SHOW_ELEMENT,l,!1);for(;n.nextNode();)i(n.currentNode)})}export{N as i};
