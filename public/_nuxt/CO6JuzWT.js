@@ -1,0 +1,1 @@
+import{_ as n}from"./CgN_Nb6A.js";import{j as _,o as c,c as a,e as o,bE as s}from"./CxI6vCam.js";const p={class:"bg-white"},f=_({__name:"default",setup(r){return(m,i)=>{const t=n,e=s;return c(),a("div",p,[o(t),o(e)])}}});export{f as default};

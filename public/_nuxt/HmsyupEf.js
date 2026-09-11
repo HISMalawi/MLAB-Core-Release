@@ -1,0 +1,1 @@
+import{u as o}from"./3pii_1Nr.js";import{bC as e,au as r}from"./CxI6vCam.js";const u=e((i,s)=>{const{hasPermission:a}=o();if(!a.value("manage_lab_configurations"))return r("/unauthorized")});export{u as default};

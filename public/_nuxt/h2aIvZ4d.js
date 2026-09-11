@@ -1,0 +1,1 @@
+import{u as a}from"./3pii_1Nr.js";import{bC as t,au as o}from"./CxI6vCam.js";const i=t((n,s)=>{const{hasPermission:e}=a();if(!e.value("view_stock_management")&&!e.value("manage_stock_management"))return o("/unauthorized")});export{i as default};

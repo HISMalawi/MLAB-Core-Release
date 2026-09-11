@@ -1,0 +1,1 @@
+import{bC as a,bD as u,u as s,k as r,a2 as n,au as t}from"./CxI6vCam.js";const c=a(()=>{const{authenticated:e}=u(s());if(r("token").value&&(e.value=!0),e){const{route:o}=n();t(o)}else return t("/")});export{c as default};

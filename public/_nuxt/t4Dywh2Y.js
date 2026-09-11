@@ -1,1 +1,0 @@
-import{ar as s}from"./Cl9GX-Hz.js";const i=s("facility",{state:()=>({details:{}}),actions:{fetchFacility(t){this.details=t}},persist:{storage:sessionStorage}});export{i as u};

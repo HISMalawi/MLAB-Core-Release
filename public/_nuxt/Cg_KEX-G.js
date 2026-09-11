@@ -1,0 +1,1 @@
+import{u as p,A as s}from"./CxI6vCam.js";const a=(n,e)=>{const t=p(),c=s(()=>t.user?.preferences?.find(r=>r.name===n)?.value??e),o=s(()=>(t.user?.preferences?.find(r=>r.name===n)?.value??String(e))===String(e));return{value:c,matches:o}};export{a as u};

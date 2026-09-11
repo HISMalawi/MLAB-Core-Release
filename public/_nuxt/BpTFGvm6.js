@@ -1,0 +1,1 @@
+import{aN as f,ai as d}from"./CxI6vCam.js";function N({container:e,accept:t,walk:l,enabled:a}){f(()=>{let r=e.value;if(!r||a!==void 0&&!a.value)return;let c=d(e);if(!c)return;let n=Object.assign(o=>t(o),{acceptNode:t}),i=c.createTreeWalker(r,NodeFilter.SHOW_ELEMENT,n,!1);for(;i.nextNode();)l(i.currentNode)})}export{N as i};

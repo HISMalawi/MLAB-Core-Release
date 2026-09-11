@@ -1,0 +1,1 @@
+import{aK as s,R as n,B as l,z as c}from"./CxI6vCam.js";function f(){const e=c(!0),a=new s;return{loading:e,executeCancellableRequest:async t=>{e.value=!0;try{return await l(t,a)}finally{e.value=!1}},cancelRequest:()=>{a.cancel(n),e.value=!1}}}export{f as u};
